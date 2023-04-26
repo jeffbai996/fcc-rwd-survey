@@ -1,0 +1,12 @@
+h1, p {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input[type="number"] {
+  width: 30%;
+}

@@ -13,11 +13,17 @@
   <form id="survey-form">
     <label for="name" id="name-label">Name <input id="name" type="text" placeholder="Joe" required/></label>
     <label for="email" id="email-label">E-mail <input id="email" type="email" placeholder="joe@example.com" required/></label>
-    <label for="number" id="number-label">Number <input id="number" type="number" min="0" max="10" placeholder="935-555-5555"/></label>
+    <label for="number" id="number-label">Number <input id="number" type="number" min="6" max="10" placeholder="935-555-5555"/></label>
     <select id="dropdown">
-      <option></option>
-      <option></option>
+      <option>Hi</option>
+      <option>Bye</option>
     </select>
+    <label for="yes" id="yes-label">Yes <input id="yes" name="yes-no" value="yes" type="radio" /></label>
+    <label for="no" id="no-label">No <input id="no" name="yes-no" value="no" type="radio" /></label>
+    <input type="checkbox" value="hello" name="hello-goodbye">
+    <input type="checkbox" value="goodbye" name="hello-goodbye">
+    <textarea></textarea>
+    <input type="submit" id="submit"></input>
   </form>
 </body>
 </html>
